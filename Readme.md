@@ -31,6 +31,6 @@ Who does not like swags? We share swag opportunities in channels but our focus i
 
 <b>Want to contribute?</b><br>
 Then <br>
-1)Fork this repo and 
-2)Contribute to the files 
-3)create a pull request 
+1)Fork this repo and <br>
+2)Contribute to the files <br> 
+3)create a pull request <br>
