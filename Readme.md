@@ -38,7 +38,7 @@ Then <br>
 
 # What is Hacktoberfest
 
-<img src="assets/Hacktoberfest_final_2color-06 copy.svg" >
+<img src="images/Hacktoberfest_final_2color-06 copy.svg" >
 
 **Hacktoberfest**, in its 8th year, is a month-long celebration of open source software run by **DigitalOcean**. During the month of October, we invite you to join open-source software enthusiasts, beginners, and the developer community by contributing to open-source projects. You can do this in a variety of ways:
 
