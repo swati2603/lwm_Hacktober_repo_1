@@ -353,3 +353,39 @@ body{
     bottom: 60px;
     color: #a4b0be;
 }
+.thirdcontent{
+    background-color: #c7ecee;
+    position: relative;
+    top: 900px;
+    padding-bottom: 1800px;
+    padding-right: 500px;
+    
+    
+
+}
+.thirdcontent h1{
+    position: relative;
+    text-align: center;
+    left: 240px;
+    font-family: Goudy Old Style;
+    padding-top: 50px;
+
+}
+.slider{
+    width: 55%;
+    height: 1350px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-image: url("images/mlh.jpg");
+    
+    box-shadow: 1px 2px 10px 5px white;
+    animation: slider 13s infinite linear;
+    transform: translate(-50%,-50%);
+    
+}
+@keyframes slider{
+    0%{ background-image: url("images/mlh.jpg");}
+    35%{ background-image: url("images/firstswag.png");}
+    75%{background-image: url("images/selfpromote.png"); }
+}
