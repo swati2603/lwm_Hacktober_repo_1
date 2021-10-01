@@ -26,3 +26,11 @@ Who does not like swags? We share swag opportunities in channels but our focus i
 1)	Guild in MLH Local Learn 2022
 2)	Folks applying to Student Ambassador programs
 3)	Folks getting their first swags  
+
+<b> Here is our webpage link :</b> https://lwm-community.github.io/lwm_Hacktober_repo_1/ of this repo 
+
+<b>Want to contribute?</b><br>
+Then <br>
+1)Fork this repo and 
+2)Contribute to the files 
+3)create a pull request 
