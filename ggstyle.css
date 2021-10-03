@@ -1,3 +1,5 @@
+/*First part for navigation part and the home sceen part this part is mostly okay dont need to change*/
+
 h1{
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 90px;
@@ -76,8 +78,19 @@ body{
 }
 
 
+
+
+/*From this part the real challange bigins */
+/*I posioned everything in relative so for some resulation content of the site get collapsed with each other*/
+/*Try to fix everything I commented everything bellow which part is for what*/
+/*Good luck and fix the mess*/
+
+
+/*Second part after homescreen starts form here try to read the comments*/
+
+
 .courses{
-    border-radius: 100%;
+    border-radius: 100%;   /* picture of courses*/
     height: 400px;
     width: 400px;
     float: left;
@@ -85,19 +98,19 @@ body{
 }
 .swags{
     border-radius: 100%;
-    height: 400px;
+    height: 400px;         /*picture for swags part*/
     width: 400px;
     float: right;
 }
 .internship{
     border-radius: 100%;
-    height: 400px;
+    height: 400px;            /*picture for guidance part*/
     width: 400px;
     float: left;
 
 }
 .defcourses{
-    position: relative;
+    position: relative;     /*div of courses part*/
     top: 0px;
     
     left: 230px;
@@ -162,7 +175,7 @@ body{
 }
 .defcarrer{
     position: relative;
-    top: 600px;
+    top: 600px;                  /*div class for guidance part*/
     right: 200px;
 }
 .defcarrer h3{
@@ -175,13 +188,13 @@ body{
 .defcarrer p{
     position: relative;
     top: 100px;
-    font-size: 25px;
+    font-size: 25px;      
     left: 20px;
     color: #ff5e57;
 }
 .vector{
     border-radius: 100%;
-    height: 400px;
+    height: 400px;                   /*picture for events part*/
     width: 400px;
     position: relative;
     right: -300px;
@@ -189,7 +202,7 @@ body{
 }
 .defintern{
     position: relative;
-    top: 800px;
+    top: 800px;                    /*div class for events part*/
     right: -150px;
     width: 80%;
 }
@@ -212,31 +225,77 @@ body{
     bottom: 300px;
     color: #4834d4;
 }
-.secondcontent{
-    background-color:#F8EFBA;
+
+.defselfbranding{
     position: relative;
-    top: 800px;
-    padding-bottom: 250px;
+                                        /*div class for selfbranding part*/
+    top: 64vh;
+    padding-bottom: 30vh;
+    left: 11vw;
 }
+.defselfbranding h3{
+    font-size: 46px;
+    position: relative;
+    left: 2vw;
+    top: 9vh;
+    color: #9b59b6;
+}
+.defselfbranding p{
+    font-size: 25px;
+    position: relative;
+    left: 2vw;
+    width: 60%;
+    top: 9vh;
+    color: #9980FA
+}
+.slefbranding{
+    border-radius: 100%;
+    height: 400px;
+    width: 400px;                            /*picture for self branding*/
+    
+    float:left
+}
+
+
+
+
+
+
+
 .firstcontentlastcontent{
     position: relative;
-    top: 750px;
+    top: 750px;                            /*and many more first content footer part*/
     left: 700px;
 }
 .firstcontentlastcontent{
     font-size: 30px;
     color: slateblue;
 }
-.video{
+
+
+
+
+
+/*Tour to our dicord server starts from here*/
+
+
+.secondcontent{
+    background-color:#F8EFBA;
     position: relative;
+    top: 800px;                        /*tour to our discord server part*/
+    padding-bottom: 250px;
+}
+
+.video{
+    position: relative;            /*tour to our discord server video part*/
     left: 400px;
     
 }
 .secondcontentheader{
     position: relative;
-    width: 90%;
+    width: 90%;                   /*tour to our discord server header part*/
     right: -290px;
-    
+                                /*header content only have pacific writings excluding the video*/
     margin-top: 100px;
     top: 100px;
     margin-bottom: 100px;
@@ -257,7 +316,7 @@ body{
 }
 .discordlink{
     position: relative;
-    margin-top: 200px;
+    margin-top: 200px;         /*discord link part*/
     width: 70%;
     left: 340px;
 }
@@ -278,16 +337,20 @@ body{
 .discotemplate{
     position: relative;
     top: 50px;
-    right: -250px;
+    right: -250px;    /*discord link image part*/
 }
+
+
+/*Footer part starts from here*/
+
 
 .last{
     background-color: whitesmoke;
-    position: relative;
+    position: relative;                  /*footer part*/
     top: 600px;
 }
 .contractus{
-    position: relative;
+    position: relative;          /*footer contract us part*/
     left: 550px;
     bottom: 370px;
 }
@@ -298,7 +361,7 @@ body{
 
 .contractus a{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 20px;                      /*footer link part*/
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: auto;
@@ -330,20 +393,20 @@ body{
     padding: auto;
 }
 .youtube{
-    position: relative;
+    position: relative;                    /*youtube link */
     left: 8px;
     bottom: 5px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .facebook{
     position: relative;
-    top: 30px;
+    top: 30px;                             /*facebook link*/
     right: 75px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .linkedin{
     position: relative;
-    top: 65px;
+    top: 65px;                               /*linkedin link*/
     right: 165px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -353,9 +416,14 @@ body{
     bottom: 60px;
     color: #a4b0be;
 }
+
+
+/*Image slide show from our achivements*/
+/*Try to fix the resulation of the image change the slides if you want*/
+
 .slidershow{
     width: 700px;
-    height: 500px;
+    height: 500px;               
     overflow: hidden;
 
   }
@@ -421,13 +489,16 @@ body{
   }
  
 
-  
+/* Our achivements part this part for positioning and background*/  
 .thirdcontent{
-    background-color: #c7ecee;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(images/gg.png);
+ 
     position: relative;
     top: 900px;
     padding-bottom: 700px;
     padding-right: 500px;
+    background-size: cover;
+    background-position: center
     
     
 
