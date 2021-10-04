@@ -421,36 +421,55 @@ body{
     font-family: Trebuchet MS;
     margin-bottom: 150px;
 }
-.discordlink{
-    position: relative;
-    margin-top: 200px;         /*discord link part*/
-    width: 70%;
-    left: 340px;
-}
-.discordlink h2{
-    font-size: 50px;
-    position: relative;
-    left: 290px;
-}
-.discordlink h4{
-    font-size: 25px;
-    width: 60%;
-    position: relative;
-    left: 180px;
-}
 
-
-
-.discotemplate{
+/*Discord Button*/
+.discordlink {
     position: relative;
-    top: 50px;
-    right: -250px;    /*discord link image part*/
-}
-
+    display: flex;
+    margin: auto;
+    margin-top: 50px; /*discord link part*/
+    width: 400px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 0;
+    background-color: rgb(114, 137, 218);
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  .discordlink span {
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+  }
+  /*Hovering Effect*/
+  .discordlink:after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+  }
+  .discordlink:hover:after {
+    width: 120%;
+    background-color: rgba(255, 255, 255, 0);
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+  }
 
 /*Footer part starts from here*/
-
-
 .last{
     background-color: whitesmoke;
     position: relative;                  /*footer part*/
