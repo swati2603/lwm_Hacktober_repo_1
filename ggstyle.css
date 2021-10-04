@@ -1,527 +1,504 @@
 /*First part for navigation part and the home sceen part this part is mostly okay dont need to change*/
 
-h1{
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 90px;
-    color: rebeccapurple;
+h1 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 90px;
+  color: rebeccapurple;
 }
 
-body{
-    background-color:#F4A950;
-    overflow-x: hidden;
-  }
-
-*{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-}
-.banner{
-    width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(images/gg.png);
-    background-size: cover;
-    background-position: center
-}
-.navbar{
-    width: 85%;
-    margin: auto;
-    padding: 35px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.logo{
-    width: 120px;
-    cursor: pointer;
-}
-.navbar ul li{
-    list-style: none;
-    display: inline-block;
-    margin: 0 20px;
-    position: relative;
-}
-.navbar ul li a{
-    color: white;
-    text-decoration: none;
-    
-}
-.navbar ul li::after{
-    content: "";
-    height: 3px;
-    width: 0;
-    background: greenyellow;
-    position:absolute;
-    left: 0;
-    bottom: -10px;
-    transition: 0.5s;
-}
-.navbar ul li:hover::after{
-    width: 100%;
-}
-.content{
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    text-align: center;
-    color: honeydew;
-    transform: translateY(-50%);
-}
-.content h1{
-    font-size: 70px;
-    margin-top: 80px;
-    color: white;
-}
-.content p{
-    margin: 20px auto;
-    font-weight: 100;
-    font-size: 30px;
-    color: cyan;
+body {
+  background-color: #f4a950;
+  overflow-x: hidden;
 }
 
-
-
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(images/gg.png);
+  background-size: cover;
+  background-position: center;
+}
+.navbar {
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 120px;
+  cursor: pointer;
+}
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+}
+.navbar ul li::after {
+  content: "";
+  height: 3px;
+  width: 0;
+  background: greenyellow;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+.navbar ul li:hover::after {
+  width: 100%;
+}
+.content {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  color: honeydew;
+  transform: translateY(-50%);
+}
+.content h1 {
+  font-size: 70px;
+  margin-top: 80px;
+  color: white;
+}
+.content p {
+  margin: 20px auto;
+  font-weight: 100;
+  font-size: 30px;
+  color: cyan;
+}
 
 /*From this part the real challenge begins */
 /*I positioned everything in relative so for some resulation content of the website get collapsed with each other*/
 /*Try to fix everything I commented everything bellow which part is for what*/
 /*Good luck and fix the mess*/
 
-
 /*Second part after homescreen starts form here try to read the comments*/
 
 /*About our community starts from here*/
-.firstcontainerheader{  /*Header part of about our community*/
-    position: relative;
-    margin: 200px;
-    right: -170px;
-    
+.firstcontainerheader {
+  /*Header part of about our community*/
+  position: relative;
+  margin: 200px;
+  right: -170px;
 }
-.firstcontainerheader h1{
-    font-size: 110px;
-    font-family:  monospace;
+.firstcontainerheader h1 {
+  font-size: 110px;
+  font-family: monospace;
 }
-.firstcontainerheader h3{
-    position: relative;
-    margin-top: 50px;
-    font-size: 28px;
-    width: 94%;
-    right: 120px;
-    
-    font-family:Times New Roman;
+.firstcontainerheader h3 {
+  position: relative;
+  margin-top: 50px;
+  font-size: 28px;
+  width: 94%;
+  right: 120px;
 
-}
-
-.courses{
-    border-radius: 100%;   /* picture of courses*/
-    height: 400px;
-    width: 400px;
-    float: left;
-
-}
-.swags{
-    border-radius: 100%;
-    height: 400px;         /*picture for swags part*/
-    width: 400px;
-    float: right;
-}
-.guidance{
-    border-radius: 100%;
-    height: 400px;            /*picture for guidance part*/
-    width: 400px;
-    float: left;
-
-}
-.events{
-    border-radius: 100%;
-    height: 400px;                   /*picture for events part*/
-    width: 400px;
-    position: relative;
-    right: -300px;
-
-}
-.slefbranding{
-    border-radius: 100%;
-    height: 400px;
-    width: 400px;                            /*picture for self branding*/
-    
-    float:left
+  font-family: Times New Roman;
 }
 
-
-
-
-
-
-
-.defcourses{
-    position: relative;     /*div of courses part*/
-    top: 0px;
-    
-    left: 230px;
-    
+.courses {
+  border-radius: 100%; /* picture of courses*/
+  height: 400px;
+  width: 400px;
+  float: left;
 }
-.defcourses h3{
-    font-size: 50px;
-    font-family: monospace;   
-    color: purple;
-    position: relative;
-    top: 100px;
-    right: -20px;
+.swags {
+  border-radius: 100%;
+  height: 400px; /*picture for swags part*/
+  width: 400px;
+  float: right;
 }
-.defcourses p{
-    font-size: 25px;
-    color: royalblue;
-    position: relative;
-    top: 100px;
-    left: 20px;
-    width: 70%;
+.guidance {
+  border-radius: 100%;
+  height: 400px; /*picture for guidance part*/
+  width: 400px;
+  float: left;
 }
-.defswags{
-    position: relative;
-    top: 300px;                         /*div swags part*/
-    right: 200px;
-    
+.events {
+  border-radius: 100%;
+  height: 400px; /*picture for events part*/
+  width: 400px;
+  position: relative;
+  right: -300px;
 }
-.defswags h3{
-    position: relative;
-    top: 120px;
-    font-size: 50px;
-    color: #9980FA;
-    left: 130px;
-}
-.defswags p{
-    position: relative;
-    font-size: 25px;
-    top: 130px;
-    color: #000000;
-    width: 70%;
-    right: -140px;
+.slefbranding {
+  border-radius: 100%;
+  height: 400px;
+  width: 400px; /*picture for self branding*/
+
+  float: left;
 }
 
-.defguidance{
-    position: relative;
-    top: 600px;                  /*div class for guidance part*/
-    right: 200px;
-}
-.defguidance h3{
-    position: relative;
-    top: 100px;
-    font-size: 50px;
-    left: 20px;
-    color: purple;
-}
-.defguidance p{
-    position: relative;
-    top: 100px;
-    font-size: 25px;      
-    left: 20px;
-    color: #ff5e57;
-}
+.defcourses {
+  position: relative; /*div of courses part*/
+  top: 0px;
 
-    
-
-.defevents{
-    position: relative;
-    top: 800px;                    /*div class for events part*/
-    right: -150px;
-    width: 80%;
+  left: 230px;
 }
-.defevents h3{
-    font-size: 46px;
-    position: relative;
-    left: 150px;
-    bottom: 300px;
-    color: #353b48;    
+.defcourses h3 {
+  font-size: 50px;
+  font-family: monospace;
+  color: purple;
+  position: relative;
+  top: 100px;
+  right: -20px;
 }
-.defevents p{
-    font-size: 25px;
-    position: relative;
-    left: 150px;
-    width: 60%;
-    bottom: 300px;
-    color: #4834d4;
+.defcourses p {
+  font-size: 25px;
+  color: royalblue;
+  position: relative;
+  top: 100px;
+  left: 20px;
+  width: 70%;
 }
-
-
-
-.defselfbranding{
-    position: relative;             /*div class for selfbranding part*/
-    top: 64vh;
-    padding-bottom: 30vh;
-    left: 11vw;
+.defswags {
+  position: relative;
+  top: 300px; /*div swags part*/
+  right: 200px;
 }
-.defselfbranding h3{
-    font-size: 46px;
-    position: relative;
-    left: 2vw;
-    top: 9vh;
-    color: #9b59b6;
+.defswags h3 {
+  position: relative;
+  top: 120px;
+  font-size: 50px;
+  color: #9980fa;
+  left: 130px;
 }
-.defselfbranding p{
-    font-size: 25px;
-    position: relative;
-    left: 2vw;
-    width: 60%;
-    top: 9vh;
-    color: #9980FA
+.defswags p {
+  position: relative;
+  font-size: 25px;
+  top: 130px;
+  color: #000000;
+  width: 70%;
+  right: -140px;
 }
 
-
-
-
-
-
-
-
-.firstcontentlastcontent{
-    position: relative;
-    top: 750px;                            /*and many more first content footer part*/
-    left: 700px;
+.defguidance {
+  position: relative;
+  top: 600px; /*div class for guidance part*/
+  right: 200px;
 }
-.firstcontentlastcontent{
-    font-size: 30px;
-    color: slateblue;
+.defguidance h3 {
+  position: relative;
+  top: 100px;
+  font-size: 50px;
+  left: 20px;
+  color: purple;
+}
+.defguidance p {
+  position: relative;
+  top: 100px;
+  font-size: 25px;
+  left: 20px;
+  color: #ff5e57;
 }
 
+.defevents {
+  position: relative;
+  top: 800px; /*div class for events part*/
+  right: -150px;
+  width: 80%;
+}
+.defevents h3 {
+  font-size: 46px;
+  position: relative;
+  left: 150px;
+  bottom: 300px;
+  color: #353b48;
+}
+.defevents p {
+  font-size: 25px;
+  position: relative;
+  left: 150px;
+  width: 60%;
+  bottom: 300px;
+  color: #4834d4;
+}
+
+.defselfbranding {
+  position: relative; /*div class for selfbranding part*/
+  top: 64vh;
+  padding-bottom: 30vh;
+  left: 11vw;
+}
+.defselfbranding h3 {
+  font-size: 46px;
+  position: relative;
+  left: 2vw;
+  top: 9vh;
+  color: #9b59b6;
+}
+.defselfbranding p {
+  font-size: 25px;
+  position: relative;
+  left: 2vw;
+  width: 60%;
+  top: 9vh;
+  color: #9980fa;
+}
+
+.firstcontentlastcontent {
+  position: relative;
+  top: 750px; /*and many more first content footer part*/
+  left: 700px;
+}
+.firstcontentlastcontent {
+  font-size: 30px;
+  color: slateblue;
+}
 
 /*Image slide show from our achivements*/
 /*Try to fix the resulation of the image change the slides if you want*/
 
-.slidershow{
-    width: 700px;
-    height: 500px;               
-    overflow: hidden;
-
-  }
-  .middle{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-  }
-  .navigation{
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-  }
-  .bar{
-    width: 50px;
-    height: 10px;
-    border: 2px solid #fff;
-    margin: 6px;
-    cursor: pointer;
-    transition: 0.4s;
-  }
-  .bar:hover{
-    background: #fff;
-  }
-  
-  input[name="r"]{
-      position: absolute;
-      visibility: hidden;
-  }
-  
-  .slides{
-    width: 500%;
-    height: 100%;
-    display: flex;
-  }
-  
-  .slide{
-    width: 20%;
-    transition: 0.6s;
-  }
-  .slide img{
-    width: 100%;
-    height: 100%;
-  }
-  
-  #r1:checked ~ .s1{
-    margin-left: 0;
-  }
-  #r2:checked ~ .s1{
-    margin-left: -20%;
-  }
-  #r3:checked ~ .s1{
-    margin-left: -40%;
-  }
-  #r4:checked ~ .s1{
-    margin-left: -60%;
-  }
-  #r5:checked ~ .s1{
-    margin-left: -80%;
-  }
- 
-
-/* Our achivements part this part for positioning and background*/  
-.thirdcontent{
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(images/gg.png);
- 
-    position: relative;
-    top: 900px;
-    padding-bottom: 700px;
-    padding-right: 500px;
-    background-size: cover;
-    background-position: center
-    
-    
-
+.slidershow {
+  width: 700px;
+  height: 500px;
+  overflow: hidden;
 }
-.thirdcontent h1{
-    position: relative;
-    text-align: center;
-    left: 240px;
-    font-family: Goudy Old Style;
-    padding-top: 50px;
-
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.navigation {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+.bar {
+  width: 50px;
+  height: 10px;
+  border: 2px solid #fff;
+  margin: 6px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.bar:hover {
+  background: #fff;
 }
 
+input[name="r"] {
+  position: absolute;
+  visibility: hidden;
+}
 
+.slides {
+  width: 500%;
+  height: 100%;
+  display: flex;
+}
 
+.slide {
+  width: 20%;
+  transition: 0.6s;
+}
+.slide img {
+  width: 100%;
+  height: 100%;
+}
 
+#r1:checked ~ .s1 {
+  margin-left: 0;
+}
+#r2:checked ~ .s1 {
+  margin-left: -20%;
+}
+#r3:checked ~ .s1 {
+  margin-left: -40%;
+}
+#r4:checked ~ .s1 {
+  margin-left: -60%;
+}
+#r5:checked ~ .s1 {
+  margin-left: -80%;
+}
+
+/* Our achivements part this part for positioning and background*/
+.thirdcontent {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(images/gg.png);
+
+  position: relative;
+  top: 900px;
+  padding-bottom: 700px;
+  padding-right: 500px;
+  background-size: cover;
+  background-position: center;
+}
+.thirdcontent h1 {
+  position: relative;
+  text-align: center;
+  left: 240px;
+  font-family: Goudy Old Style;
+  padding-top: 50px;
+}
 
 /*Tour to our dicord server starts from here*/
 
-
-.secondcontent{
-    background-color:#F8EFBA;
-    position: relative;
-    top: 800px;                        /*tour to our discord server part*/
-    padding-bottom: 250px;
+.secondcontent {
+  background-color: #f8efba;
+  position: relative;
+  top: 800px; /*tour to our discord server part*/
+  padding-bottom: 250px;
 }
 
-.video{
-    position: relative;            /*tour to our discord server video part*/
-    left: 400px;
-    
+.video {
+  position: relative; /*tour to our discord server video part*/
+  left: 400px;
 }
-.secondcontentheader{
-    position: relative;
-    width: 90%;                   /*tour to our discord server header part*/
-    right: -290px;
-                                /*header content only have pacific writings excluding the video*/
-    margin-top: 100px;
-    top: 100px;
-    margin-bottom: 100px;
+.secondcontentheader {
+  position: relative;
+  width: 90%; /*tour to our discord server header part*/
+  right: -290px;
+  /*header content only have pacific writings excluding the video*/
+  margin-top: 100px;
+  top: 100px;
+  margin-bottom: 100px;
 }
-.secondcontentheader h1{
-    margin-bottom: 20px;
-    font-family: Goudy Old Style;
-    position: relative;
-    left: 60px;
+.secondcontentheader h1 {
+  margin-bottom: 20px;
+  font-family: Goudy Old Style;
+  position: relative;
+  left: 60px;
 }
-.secondcontentheader h3{
-    font-size: 25px;
-    width: 67%;
-    position: relative;
-    left: 60px;
-    font-family: Trebuchet MS;
-    margin-bottom: 150px;
+.secondcontentheader h3 {
+  font-size: 25px;
+  width: 67%;
+  position: relative;
+  left: 60px;
+  font-family: Trebuchet MS;
+  margin-bottom: 150px;
 }
-.discordlink{
-    position: relative;
-    margin-top: 200px;         /*discord link part*/
-    width: 70%;
-    left: 340px;
-}
-.discordlink h2{
-    font-size: 50px;
-    position: relative;
-    left: 290px;
-}
-.discordlink h4{
-    font-size: 25px;
-    width: 60%;
-    position: relative;
-    left: 180px;
-}
+/*Discord Button*/
 
-
-
-.discotemplate{
-    position: relative;
-    top: 50px;
-    right: -250px;    /*discord link image part*/
+.discordlink {
+  position: relative;
+  display: flex;
+  margin: auto;
+  margin-top: 50px; /*discord link part*/
+  width: 400px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 0;
+  background-color: rgb(114, 137, 218);
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
 }
-
+.discordlink span {
+  text-decoration: none;
+  color: white;
+  padding-left: 10px;
+}
+/*Hovering Effect*/
+.discordlink:after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 0%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.4);
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+.discordlink:hover:after {
+  width: 120%;
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
 
 /*Footer part starts from here*/
 
-
-.last{
-    background-color: whitesmoke;
-    position: relative;                  /*footer part*/
-    top: 600px;
+.last {
+  background-color: whitesmoke;
+  position: relative; /*footer part*/
+  top: 600px;
 }
-.contractus{
-    position: relative;          /*footer contract us part*/
-    left: 550px;
-    bottom: 370px;
+.contractus {
+  position: relative; /*footer contract us part*/
+  left: 550px;
+  bottom: 370px;
 }
-.contractus h2{
-    margin-bottom: 30px;
-}
-
-
-.contractus a{
-    text-decoration: none;
-    font-size: 20px;                      /*footer link part*/
-    color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: auto;
-    
-    
-}
-.lwmadmin{
-    position: relative;           /*footer linking everything*/
-    top: 20px;
-}
-.lwmmods{
-    position: relative;
-    top: 60px;
-    right: 120px;
-}
-.getconnected{
-    position: relative;
-    left: 1100px;
-    bottom: 465px;
-}
-.getconnected h2{
-    margin-bottom: 30px;
-}
-.getconnected a{
-    text-decoration: none;
-    font-size: 20px;
-    color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: auto;
-}
-.youtube{
-    position: relative;                    /*youtube link */
-    left: 8px;
-    bottom: 5px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.facebook{
-    position: relative;
-    top: 30px;                             /*facebook link*/
-    right: 75px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.linkedin{
-    position: relative;
-    top: 65px;                               /*linkedin link*/
-    right: 165px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.footer{
-    position: relative;
-    left: 700px;
-    bottom: 60px;
-    color: #a4b0be;
+.contractus h2 {
+  margin-bottom: 30px;
 }
 
-
+.contractus a {
+  text-decoration: none;
+  font-size: 20px; /*footer link part*/
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: auto;
+}
+.lwmadmin {
+  position: relative; /*footer linking everything*/
+  top: 20px;
+}
+.lwmmods {
+  position: relative;
+  top: 60px;
+  right: 120px;
+}
+.getconnected {
+  position: relative;
+  left: 1100px;
+  bottom: 465px;
+}
+.getconnected h2 {
+  margin-bottom: 30px;
+}
+.getconnected a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: auto;
+}
+.youtube {
+  position: relative; /*youtube link */
+  left: 8px;
+  bottom: 5px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.facebook {
+  position: relative;
+  top: 30px; /*facebook link*/
+  right: 75px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.linkedin {
+  position: relative;
+  top: 65px; /*linkedin link*/
+  right: 165px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.footer {
+  position: relative;
+  left: 700px;
+  bottom: 60px;
+  color: #a4b0be;
+}
