@@ -1,3 +1,4 @@
+
 /*First part for navigation part and the home sceen part this part is mostly okay dont need to change*/
 
 h1 {
@@ -78,6 +79,12 @@ body {
   font-weight: 100;
   font-size: 30px;
   color: cyan;
+
+h1{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 90px;
+    color: rebeccapurple;
+
 }
 
 /*From this part the real challenge begins */
@@ -294,6 +301,50 @@ body {
 input[name="r"] {
   position: absolute;
   visibility: hidden;
+
+.defguidance{
+    position: relative;
+    top: 600px;                  /*div class for guidance part*/
+    right: 200px;
+}
+.defguidance h3{
+    position: relative;
+    top: 100px;
+    font-size: 50px;
+    left: 20px;
+    color: purple;
+}
+.defguidance p{
+    position: relative;
+    top: 100px;
+    font-size: 25px;      
+    left: 20px;
+    color: #ff5e57;
+}
+
+    
+
+.defevents{
+    position: relative;
+    top: 800px;                    /*div class for events part*/
+    right: -150px;
+    width: 80%;
+}
+.defevents h3{
+    font-size: 46px;
+    position: relative;
+    left: 230px;
+    bottom: 300px;
+    color: #353b48;    
+}
+.defevents p{
+    font-size: 25px;
+    position: relative;
+    left: 230px;
+    width: 60%;
+    bottom: 300px;
+    color: #4834d4;
+
 }
 
 .slides {
@@ -431,6 +482,7 @@ input[name="r"] {
   transition: all 0.5s ease-out;
 }
 
+
 /*Footer part starts from here*/
 
 .last {
@@ -502,3 +554,4 @@ input[name="r"] {
   bottom: 60px;
   color: #a4b0be;
 }
+
