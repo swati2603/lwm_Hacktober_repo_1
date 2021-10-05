@@ -4,48 +4,48 @@
 # Comment to be posted to on first time issues
 
 newIssueWelcomeComment: >
-    Hello there!👋 Welcome to the LWM-Community-Web-Page project!  
+    Hello there!👋 Welcome to the LWM-Community-Web-Page project!  <br>
 
 
-    Thank you and congrats🎉for opening your very first issue in this project.
-     
+    Thank you and congrats🎉for opening your very first issue in this project. <br>
+ 
 
-    Learn With Mitul (LWM) Community is a community by the students , for the students .  
-    Here our main goal is to share all the free and good resources for students so that they can become self-reliant .
-    The community folks also share events, conferences, opportunities, guidelines and so on . We are growing faster . 
-    Why not you join us! The journey will be exciting I assure you .
+    Learn With Mitul (LWM) Community is a community by the students , for the students .  <br> 
+    Here our main goal is to share all the free and good resources for students so that they can become self-reliant . <br>
+    The community folks also share events, conferences, opportunities, guidelines and so on . We are growing faster .  <br>
+    Why not you join us! The journey will be exciting I assure you . <br>
 
-    Feel free to join us on:
-    Discord : https://discord.com/invite/yzegezxsd8
-    LinkedIn: https://www.linkedin.com/company/lwmcommunity
-    Twitter: https://twitter.com/lwmcommunity
-    YouTube: https://www.youtube.com/channel/UCz5O3xDcr4Wxh-p2Zj-re_A
-    GitHub: https://github.com/LWM-Community
-    Facebook: https://www.facebook.com/LearnWithMitul
+    Feel free to join us on: <br>
+    Discord : https://discord.com/invite/yzegezxsd8 <br>
+    LinkedIn: https://www.linkedin.com/company/lwmcommunity <br>
+    Twitter: https://twitter.com/lwmcommunity <br>
+    YouTube: https://www.youtube.com/channel/UCz5O3xDcr4Wxh-p2Zj-re_A <br>
+    GitHub: https://github.com/LWM-Community <br>
+    Facebook: https://www.facebook.com/LearnWithMitul <br>
 
     Hope you have a great time us!😄
 # Configuration for new-pr-welcome - https://github.com/behaviorbot/new-pr-welcome
 # Comment to be posted to on PRs from first time contributors in your repository
 
 newPRWelcomeComment: >
-    Hello there!👋 Welcome to the LWM-Community-Web-Page project!
+    Hello there!👋 Welcome to the LWM-Community-Web-Page project! <br>
 
 
-    Thank you and congrats🎉 for opening your first pull request.✨  
+    Thank you and congrats🎉 for opening your first pull request.✨  <br>
     ![](https://tenor.com/view/kindergarden-congratulations-minions-gif-16697571)
 
-    Learn With Mitul (LWM) Community is a community by the students , for the students .  
-    Here our main goal is to share all the free and good resources for students so that they can become self-reliant .
-    The community folks also share events, conferences, opportunities, guidelines and so on . We are growing faster . 
+    Learn With Mitul (LWM) Community is a community by the students , for the students .  <br>
+    Here our main goal is to share all the free and good resources for students so that they can become self-reliant . <br>
+    The community folks also share events, conferences, opportunities, guidelines and so on . We are growing faster . <br>
     Why not you join us! The journey will be exciting I assure you .
 
-    Feel free to join us on:
-    Discord : https://discord.com/invite/yzegezxsd8
-    LinkedIn: https://www.linkedin.com/company/lwmcommunity
-    Twitter: https://twitter.com/lwmcommunity
-    YouTube: https://www.youtube.com/channel/UCz5O3xDcr4Wxh-p2Zj-re_A
-    GitHub: https://github.com/LWM-Community
-    Facebook: https://www.facebook.com/LearnWithMitul
+    Feel free to join us on: <br>
+    Discord : https://discord.com/invite/yzegezxsd8 <br>
+    LinkedIn: https://www.linkedin.com/company/lwmcommunity <br>
+    Twitter: https://twitter.com/lwmcommunity <br>
+    YouTube: https://www.youtube.com/channel/UCz5O3xDcr4Wxh-p2Zj-re_A <br>
+    GitHub: https://github.com/LWM-Community <br>
+    Facebook: https://www.facebook.com/LearnWithMitul <br>
 
     Hope you have a great time us!😄
 
@@ -53,20 +53,20 @@ newPRWelcomeComment: >
 # Comment to be posted to on pull requests merged by a first time user
 
 firstPRMergeComment: >
-    Thank you and congrats🎉 on getting your first pull request merged.  
+    Thank you and congrats🎉 on getting your first pull request merged.  <br> 
     ![](https://c.tenor.com/i10mO84qRUQAAAAC/congratulations-cheers.gif)
 
-    Learn With Mitul (LWM) Community is a community by the students , for the students .  
-    Here our main goal is to share all the free and good resources for students so that they can become self-reliant .
-    The community folks also share events, conferences, opportunities, guidelines and so on . We are growing faster . 
-    Why not you join us! The journey will be exciting I assure you .
-
-    Feel free to join us on:
-    Discord : https://discord.com/invite/yzegezxsd8
-    LinkedIn: https://www.linkedin.com/company/lwmcommunity
-    Twitter: https://twitter.com/lwmcommunity
-    YouTube: https://www.youtube.com/channel/UCz5O3xDcr4Wxh-p2Zj-re_A
-    GitHub: https://github.com/LWM-Community
-    Facebook: https://www.facebook.com/LearnWithMitul
+    Learn With Mitul (LWM) Community is a community by the students , for the students .   <br>
+    Here our main goal is to share all the free and good resources for students so that they can become self-reliant . <br>
+    The community folks also share events, conferences, opportunities, guidelines and so on . We are growing faster .<br> 
+    Why not you join us! The journey will be exciting I assure you . <br>
+ 
+    Feel free to join us on: <br>
+    Discord : https://discord.com/invite/yzegezxsd8 <br>
+    LinkedIn: https://www.linkedin.com/company/lwmcommunity <br>
+    Twitter: https://twitter.com/lwmcommunity <br>
+    YouTube: https://www.youtube.com/channel/UCz5O3xDcr4Wxh-p2Zj-re_A <br>
+    GitHub: https://github.com/LWM-Community <br>
+    Facebook: https://www.facebook.com/LearnWithMitul <br>
 
     Hope you have a great time us!😄
